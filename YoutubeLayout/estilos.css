@@ -1,0 +1,102 @@
+html,body{
+    height: 100%;
+    
+    
+}
+
+.content{
+    height: 100%;
+background-color: white;
+margin-left: 40px;
+margin-right: 40px;
+
+}
+
+.card{
+   
+    background-color: black;
+    border-radius: 5px;
+    height: 250px;
+    margin-bottom: 5px;
+
+}
+svg{
+    width: 22px;
+}
+.span{
+    display: flex;
+    justify-content: space-between;
+    fill: black;
+    border-radius: 20px;
+    align-items: center;
+}
+.executar{
+    display: flex;
+   position: absolute;
+   top: 100px;
+   left: 250px;
+   gap: 20px;
+   align-items: center;
+}
+.you{
+    display: flex;
+    justify-content: flex-start
+
+}
+.you svg{
+    display: flex;
+    justify-content: flex-start;
+    fill: red;
+    width: 40px;
+}
+.conf{
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px;
+    margin-top: 5px;
+    display: flex;
+     width: fit-content;
+    position: absolute;
+    right: 0;
+     top: 0;
+     gap: 10px;
+}
+.curti{
+    display: flex;
+    
+border-radius: 20px;
+    align-items: center;
+     background-color: black;
+    height: fit-content;
+    padding: 5px;
+    color: white;
+    gap: 5px;
+
+}
+
+button{
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: transparent;
+}
+.video{
+    position: relative;
+    width: 600px;
+}
+.video svg{
+    fill: white;
+    color: white;
+}
+.ampliar{
+    display: flex;
+    position: absolute;
+    right: 10px;
+    bottom: 70px;
+
+}
+button :hover{
+    background-color: gray;
+    padding: 5px;
+    border-radius: 40px;
+}
